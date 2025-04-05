@@ -5,4 +5,4 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 120
+      - run: sleep 12 # 2分（120秒）スリープさせる / 時間短縮する
