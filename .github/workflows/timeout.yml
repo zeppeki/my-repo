@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 1     # ワークフローのタイムアウトを1分に設定
     steps:
-      - run: sleep 120     # 2分（120秒）スリープさせる
+      - run: sleep 12     # 2分（120秒）スリープさせる / 通知されないように短くする
